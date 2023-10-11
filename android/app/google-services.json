@@ -7,25 +7,6 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:661554472447:android:33ed85eb1ae7a4b1fcb3ca",
-        "android_client_info": {
-          "package_name": "com.example.randommelodyapp"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA0WffL1t1kf_qmHkL5_Ir6_Ni1r4W_cu4"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
         "mobilesdk_app_id": "1:661554472447:android:f97c3db66d5fb580fcb3ca",
         "android_client_info": {
           "package_name": "com.yuriiukrainets.randommelody"

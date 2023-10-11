@@ -1,0 +1,42 @@
+[debug] [2023-10-11T09:32:17.650Z] ----------------------------------------------------------------------
+[debug] [2023-10-11T09:32:17.653Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bluff\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-10-11T09:32:17.654Z] CLI Version:   12.6.2
+[debug] [2023-10-11T09:32:17.654Z] Platform:      win32
+[debug] [2023-10-11T09:32:17.654Z] Node Version:  v18.17.1
+[debug] [2023-10-11T09:32:17.655Z] Time:          Wed Oct 11 2023 12:32:17 GMT+0300 (за східноєвропейським літнім часом)
+[debug] [2023-10-11T09:32:17.655Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-11T09:32:17.771Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-11T09:32:17.771Z] > authorizing via signed-in user (lundeath@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2023-10-11T09:32:17.782Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-10-11T09:32:17.783Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-10-11T09:32:17.783Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-10-11T09:32:17.795Z] [hub] writing locator at C:\Temp\hub-randommelody-e5396.json
+[debug] [2023-10-11T09:32:17.812Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/randommelody-e5396/sites 
+[debug] [2023-10-11T09:32:18.845Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/randommelody-e5396/sites 200
+[debug] [2023-10-11T09:32:18.845Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/randommelody-e5396/sites {"sites":[{"name":"projects/randommelody-e5396/sites/randommelody-e5396","defaultUrl":"https://randommelody-e5396.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-10-11T09:32:18.845Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/randommelody-e5396/webApps/-/config [none]
+[debug] [2023-10-11T09:32:19.574Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/randommelody-e5396/webApps/-/config 200
+[debug] [2023-10-11T09:32:19.574Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/randommelody-e5396/webApps/-/config {"projectId":"randommelody-e5396","appId":"1:661554472447:web:8767f667dbe6f010fcb3ca","storageBucket":"randommelody-e5396.appspot.com","apiKey":"AIzaSyCWIgGwDpiFMhNtREt1KCcsmpZAxDfPV94","authDomain":"randommelody-e5396.firebaseapp.com","messagingSenderId":"661554472447","measurementId":"G-TZMJKN8LV9"}
+[debug] [2023-10-11T09:32:19.579Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/randommelody-e5396 [none]
+[debug] [2023-10-11T09:32:19.965Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/randommelody-e5396 200
+[debug] [2023-10-11T09:32:19.965Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/randommelody-e5396 {"projectId":"randommelody-e5396","projectNumber":"661554472447","displayName":"randommelody","name":"projects/randommelody-e5396","resources":{"hostingSite":"randommelody-e5396"},"state":"ACTIVE","etag":"1_fda70d68-9668-4d17-a601-505db4e83e45"}
+[info] i  hosting[randommelody-e5396]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[randommelody-e5396]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
